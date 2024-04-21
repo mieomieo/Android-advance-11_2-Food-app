@@ -14,7 +14,7 @@ interface FoodDao {
     suspend fun insertFood(food: Food)
     @Update
     suspend fun updateFood(food: Food)
-    @Delete
+    @Query("DELETE FROM food_table WHERE id = :id")
     suspend fun deleteFood(id: Int)
 
     @Query("SELECT * FROM food_table")

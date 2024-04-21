@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
         // RecyclerView
         val adapter = FoodAdapter()
-        binding.rvFoods.layoutManager = GridLayoutManager(this,1)
+        binding.rvFoods.layoutManager = GridLayoutManager(this,2)
         binding.rvFoods.adapter = adapter
 
 
