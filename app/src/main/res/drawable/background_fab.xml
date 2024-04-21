@@ -1,4 +1,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="oval">
-    <solid android:color="#CC888888"/> <!-- Màu trong suốt với độ opacity 80% -->
+    <solid android:color="#CCBEBEBE"/> <!-- Màu trong suốt với độ opacity 80% -->
 </shape>
