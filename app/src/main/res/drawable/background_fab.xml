@@ -1,5 +1,4 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#00000000" />
-    <corners android:radius="50dp" /> <!-- Điều chỉnh radius tùy ý -->
-    <alpha android:alpha="0.3" /> <!-- Điều chỉnh độ mờ tùy ý, giá trị từ 0 đến 1 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#CC888888"/> <!-- Màu trong suốt với độ opacity 80% -->
 </shape>
